@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -208.79999999999941,
-    "scrollLeft": -291.99999999999966,
-    "zoomLevel": 0.8,
+    "scrollTop": -110.40000000000023,
+    "scrollLeft": -636.8125,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -74,7 +74,7 @@
           "active": false,
           "left": 0,
           "top": 198.3997,
-          "zIndex": 351,
+          "zIndex": 1,
           "widthName": 71.5703125,
           "widthComment": 60
         },
@@ -159,7 +159,7 @@
           "active": false,
           "left": 463.8226,
           "top": 111.8221,
-          "zIndex": 407,
+          "zIndex": 2,
           "widthName": 61.16015625,
           "widthComment": 60
         },
@@ -405,7 +405,7 @@
           "active": false,
           "left": 1032.9772,
           "top": 110.6223,
-          "zIndex": 543,
+          "zIndex": 7,
           "widthName": 60,
           "widthComment": 60
         },
@@ -490,7 +490,7 @@
           "active": false,
           "left": 490.8449,
           "top": 284.3553,
-          "zIndex": 409,
+          "zIndex": 3,
           "widthName": 61.16015625,
           "widthComment": 60
         },
@@ -575,7 +575,7 @@
           "active": false,
           "left": 509.2445,
           "top": 495.4443,
-          "zIndex": 412,
+          "zIndex": 4,
           "widthName": 61.16015625,
           "widthComment": 60
         },
@@ -660,7 +660,7 @@
           "active": false,
           "left": 503.8,
           "top": 690.2,
-          "zIndex": 414,
+          "zIndex": 5,
           "widthName": 65.73046875,
           "widthComment": 60
         },
@@ -791,7 +791,7 @@
           "active": false,
           "left": 1597.25,
           "top": 146.6001,
-          "zIndex": 541,
+          "zIndex": 6,
           "widthName": 71.5703125,
           "widthComment": 60
         },
@@ -875,8 +875,8 @@
         "ui": {
           "active": false,
           "left": 1592.4892578125,
-          "top": 434.6011,
-          "zIndex": 542,
+          "top": 435.49,
+          "zIndex": 8,
           "widthName": 71.5703125,
           "widthComment": 60
         },
@@ -1118,7 +1118,7 @@
             "16dab963-c8ef-4e87-b2a0-a35c4a12a372"
           ],
           "x": 1592.4892578125,
-          "y": 499.8511,
+          "y": 500.74,
           "direction": "left"
         },
         "constraintName": "fk_answer_to_항목 결과값",
