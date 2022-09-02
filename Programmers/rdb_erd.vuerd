@@ -48,7 +48,7 @@
         "columns": [
           {
             "name": "ID",
-            "comment": "",
+            "comment": "Unique ID",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -63,7 +63,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 61.5537109375,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -71,7 +71,7 @@
           },
           {
             "name": "NAME",
-            "comment": "",
+            "comment": "이름",
             "dataType": "TEXT",
             "default": "",
             "option": {
@@ -94,7 +94,7 @@
           },
           {
             "name": "AGE",
-            "comment": "",
+            "comment": "나이",
             "dataType": "INT",
             "default": "",
             "option": {
@@ -117,7 +117,7 @@
           },
           {
             "name": "ADDRESS",
-            "comment": "",
+            "comment": "주소",
             "dataType": "CHAR(50)",
             "default": "",
             "option": {
@@ -160,13 +160,36 @@
               "widthDefault": 60
             },
             "id": "1e8fc8bf-82e6-49a2-9b35-bcb6183c00d5"
+          },
+          {
+            "name": "ID",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3317dead-e0da-4d37-bd66-ab3dfecc385c"
           }
         ],
         "ui": {
           "active": false,
           "left": 54.4,
           "top": 62.4,
-          "zIndex": 107,
+          "zIndex": 134,
           "widthName": 64.20703125,
           "widthComment": 60
         },
@@ -248,10 +271,10 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 105.2,
-          "top": 278,
-          "zIndex": 108,
+          "active": false,
+          "left": 55.6,
+          "top": 395.6,
+          "zIndex": 117,
           "widthName": 82.970703125,
           "widthComment": 60
         },
@@ -265,6 +288,33 @@
     "memos": []
   },
   "relationship": {
-    "relationships": []
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "3d25968a-ab37-4df6-843d-4e109b91b6bf",
+          "columnIds": [
+            "6237af24-3f82-4b16-9bd4-4b7f8270fb55"
+          ],
+          "x": 229.1,
+          "y": 395.6,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "90bb2e9a-78f6-442c-a20e-dc98bfde40e0",
+          "columnIds": [
+            "3317dead-e0da-4d37-bd66-ab3dfecc385c"
+          ],
+          "x": 228.67685546875,
+          "y": 254.4,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_department_to_company",
+        "visible": true,
+        "id": "8f65e9a8-4b22-44b3-a94f-edf41a60676e"
+      }
+    ]
   }
 }
