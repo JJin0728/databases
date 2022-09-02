@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -196.8000000000014,
-    "scrollLeft": -256.00000000000176,
-    "zoomLevel": 0.8,
+    "scrollTop": -330.4000000000004,
+    "scrollLeft": -168,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -189,7 +189,7 @@
           "active": false,
           "left": 299.4868,
           "top": 366.7709,
-          "zIndex": 717,
+          "zIndex": 5,
           "widthName": 64.27685546875,
           "widthComment": 60
         },
@@ -249,7 +249,7 @@
           {
             "name": "BirthDate\t",
             "comment": "",
-            "dataType": "",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -320,7 +320,7 @@
           "active": false,
           "left": 755.6008,
           "top": 374.7995,
-          "zIndex": 716,
+          "zIndex": 8,
           "widthName": 69.40576171875,
           "widthComment": 60
         },
@@ -405,7 +405,7 @@
           "active": false,
           "left": 636.4284,
           "top": 659.0938,
-          "zIndex": 722,
+          "zIndex": 6,
           "widthName": 64.34033203125,
           "widthComment": 60
         },
@@ -513,7 +513,7 @@
           "active": false,
           "left": 24,
           "top": 9.4,
-          "zIndex": 709,
+          "zIndex": 1,
           "widthName": 79.96826171875,
           "widthComment": 60
         },
@@ -690,7 +690,7 @@
           "active": false,
           "left": 882.63,
           "top": 7.5143,
-          "zIndex": 712,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -844,7 +844,7 @@
           "active": false,
           "left": 34,
           "top": 618.8,
-          "zIndex": 724,
+          "zIndex": 7,
           "widthName": 60,
           "widthComment": 60
         },
@@ -929,7 +929,7 @@
           "active": false,
           "left": 1175.4007,
           "top": 386.9427,
-          "zIndex": 715,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1129,7 +1129,7 @@
           "active": false,
           "left": 1598.4638671875,
           "top": 292.8695,
-          "zIndex": 714,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
