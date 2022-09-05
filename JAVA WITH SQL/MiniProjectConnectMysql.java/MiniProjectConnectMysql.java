@@ -7,7 +7,7 @@ Pubilc class MiniProjectConnectMysql {
         //3.패스워드 입력후 승인확인
         //4.연결 폴더와 클래스 생성
         //5.새로운 쿼리에서 SELECT명령어 입력후 
-            출력확인
+            출력확인ll
     
         return ;
     }
